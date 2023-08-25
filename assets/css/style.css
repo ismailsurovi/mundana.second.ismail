@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+body{
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: 10px auto;
+}
+nav{
+	padding: 0px 0px;
+}
+.d-inline_block{
+	display: inline-block;
+}
+.navbar_brand{
+	color: rgba(0, 0, 0, 0.9);
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 50px;
+	text-decoration: none;
+}
+ul.navbar_menu{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar_menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar_menu li a{
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Source Sans 3', sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 20px;
+}
+.navbar_menu li a span{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 4px;
+	background: #7832E2;
+	padding: 2px 4px;
+}
+.Get-this-Theme{
+	color: #03A87C;
+	font-weight: 400;
+	font-size: 15px;
+	font-family: 'Source Sans 3', sans-serif;
+	text-decoration: none;
+	border: 1px solid green;
+	padding: 6px 30px;
+	border-radius: 4px;
+	float: right;
+	margin-top: 10px;
+}
+.Get-this-Theme:hover{
+	background: green;
+	color: white;
+}
+header{
+	width: 80%;
+	height: 500px;
+	margin: 0px auto;
+}
+.header_artical{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #E8F3EC;
+}
+h1.header_artical-1{
+	color: #212529;
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	padding-left: 40px;
+	padding-top: 40px;
+
+}
+p.header_artical_part{
+	color: #212529;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Source Sans 3', sans-serif;
+	padding-left: 40px;
+}
+
+button{
+	padding: 10px 20px;
+	border-radius: 6px;
+	background: #101214;
+	margin-left: 40px;
+}
+a.read_more{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Source Sans 3', sans-serif;
+}
+.header_banner{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.header_banner img{
+	height: 100%;
+	width: 100%;
+}
+
+main{
+	width: 80%;
+	height: 400px;
+	margin: 40px auto;
+}
+.main_artical_brain{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+h3.main_h1{
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+	font-family: 'Source Sans 3', sans-serif;
+}
+.main_artical_brain_img{
+	width: 95%;
+	height: 40%;
+	object-fit: cover;
+	object-position: 0% 0%;
+}
+.main_artical_brain_articel{
+	color: #212529;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Source Sans 3', sans-serif;
+	line-height: 1.5;
+}
+.main_artical_brain_articel_1{
+	color: #6c757d;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Source Sans 3', sans-serif;
+	line-height: 1.5;
+}
+.article_left_h2{
+	color: black;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 29px;
+	font-family: 'Source Sans 3', sans-serif;
+
+}
+.main_artical_aside{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.main_artical_aside_1{
+	width: 100%;
+	height: 33%;
+}
+.img_aside_1{
+	float: left;
+	width: 33%;
+	height: 33%;
+}
+.main_artical_aside_2{
+	width: 100%;
+	height: 33%;
+}
+.main_artical_aside_1 p{
+	margin: 0px;
+}
+.main_artical_aside_2 p{
+	margin: 0px;
+}
+.main_artical_aside_3 p{
+	margin: 0px;
+}
+.img_aside_2{
+	float: left;
+	width: 33%;
+	height: 33%;
+}
+.main_artical_aside_3{
+	width: 100%;
+	height: 34%;
+}
+.img_aside_3{
+	float: left;
+	width: 33%;
+	height: 33%;
+}
+.my-20{
+	margin: 20px 0px;
+	margin-bottom: 30px;
+}
+.title{
+	color: #212529;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'source Sans 3', sans-serif;
+	border-bottom: 1px solid #c2c2c2;
+}
+.title span{
+	border-bottom: 1px solid #c2c2c2;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.blog-section{
+	height: 100%;
+	overflow: hidden;
+}
+.stories_blog{
+	width: 60%;
+	height: 100%;
+	float: left;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.stories_blog_list{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.stories_blog_list_articel{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.stories_blog_list_articel a{
+	color: #101214;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Source Sans 3', sans-serif;
+	line-height: 1.3;
+	text-decoration: none;
+	display: inline-block;	
+}
+.stories_blog_list_articel small{
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	display: block;
+	font-family: 'Source Sans 3', sans-serif;
+	display: block;
+}
+..stories_blog_list_articel p{
+	color: #212529;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: 'Source Sans 3', sans-serif;
+	margin: 10px 0px;
+}
+.stories_blog_p{
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+.stories_blog_p img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.popular_blog{
+	width: 40%;
+	height: 100%;
+	float: right;
+	
+}
+.popular_blog_list{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.popular_blog_list_number{
+	width: 15%;
+	height: 100%;
+	float: left;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+.popular_blog_list_number h2{
+	color: #212529;
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Source Sans 3', sans-serif;
+	margin: 0px;
+}
+.popular_blog_list_articel{
+	width: 85%;
+	height: 100%;
+	float: right;
+}
+.popular_blog_list_articel a{
+	color: #212529;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Source Sans 3', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: block;
+	text-decoration: none;
+}
+.popular_blog_list_articel small{
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Source Sans 3', sans-serif;
+	display: block;
+}
+footer{
+	width: 80%;
+	height: 50px;
+	margin: 10px auto;
+}
+.footer_left h1{
+	color: #6c757d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	font-family: 'Source Sans 3', sans-serif;
+	padding: 0px 10px;
+	margin: 0px;
+	display: inline-block;
+}
+.footer_left p{
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	font-family: 'Source Sans 3', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	
+}
+.footer_left {
+	 float: left;
+}
+.footer_right{
+	float: right;
+}
